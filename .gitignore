@@ -35,8 +35,9 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-
+# db
 database
 
+# storybook
 storybook-static
 
