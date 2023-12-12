@@ -1,8 +1,17 @@
 import * as S from './styles'
 
-const Main = () => (
+const Main = ({
+  sub = 'Serviços inteligentes',
+  description = 'A solução certa para a sua empresa'
+}) => (
   <S.Wrapper>
-    <h1>Boilerplate Bilgi</h1>
+    <S.Logo src="/img/bilgi-logo.svg" alt="Logo da Bilgi" />
+    <S.Sub>{sub}</S.Sub>
+    <S.Description>{description}</S.Description>
+    <S.Illustration
+      src="/img/planejamento-img.svg"
+      alt="Um homem e uma mulher analizando gráficos"
+    />
   </S.Wrapper>
 )
 
