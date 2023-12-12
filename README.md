@@ -1,6 +1,8 @@
-![Bilgi Boilerplate](https://bilgi.com.br/wp-content/uploads/2022/11/BILGI-BRANCO-FUNDO-TRANSPARENTE-e1668796259172-300x216.png)
+<div style="display: flex; justify-content: center;">
+  <img src="https://bilgi.com.br/wp-content/uploads/2022/11/BILGI-BRANCO-FUNDO-TRANSPARENTE-e1668796259172-300x216.png" alt="Bilgi Boilerplate" />
+</div>
 
-This is a [Next.js](https://nextjs.org/) boilerplate to be used in projects for Bilgi customers [Bilgi Boilerplate](https://reactavancado.com.br/).
+This is a [Next.js](https://nextjs.org/) boilerplate to be used in projects for Bilgi customers [Bilgi Boilerplate](https://bilgi.com.br/).
 ![ci](https://github.com/React-Avancado/boilerplate-apps-router/workflows/ci/badge.svg)
 
 ## What is inside?
@@ -27,7 +29,7 @@ npm run dev
 docker compose up --force-recreate
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open NPM -> [http://localhost:3000](http://localhost:3000) | Docker -> [http://localhost:3001](http://localhost:3001) with your browser to see the result.
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
